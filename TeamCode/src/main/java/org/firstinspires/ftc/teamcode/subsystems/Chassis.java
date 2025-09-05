@@ -72,7 +72,7 @@ public final class Chassis {
                 rightFrontDrive.setPower(-power);
                 rightBackDrive.setPower(-power);
                 currentAngle = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.DEGREES) + 180;
-                telemetry.addData("angle right", currentAngle);
+                telemetry.addData("angle right NEYWO are you", currentAngle);
                 telemetry.update();
             }
         } else {
@@ -82,7 +82,7 @@ public final class Chassis {
                 rightFrontDrive.setPower(power);
                 rightBackDrive.setPower(power);
                 currentAngle = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.DEGREES) + 180;
-                telemetry.addData("angle left", currentAngle);
+                telemetry.addData("angle left NYEOW", currentAngle);
                 telemetry.update();
             }
         }

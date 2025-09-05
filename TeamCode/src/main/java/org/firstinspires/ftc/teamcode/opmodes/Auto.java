@@ -14,6 +14,7 @@ public class Auto extends LinearOpMode {
         Vincent vincent = new Vincent(hardwareMap);
         waitForStart();
 
+        // TODO - add "opmode isactive in these loops"
         chassis.turnTo(270, telemetry);
         chassis.goForward(500);
         chassis.turnTo(243, telemetry);
